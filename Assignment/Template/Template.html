@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <meta content="width=device-width, initial-scale=1.0">
+        <title>Template Page</title>
+        <link href="../Misc/Styles.css" type="text/css" rel="stylesheet"/>
+        <link rel="icon" href="../Misc/Placeholder.png">
+    </head>
+    <p class="leftspace"></p>
+    <div class="topbar">
+        <div class="darkmode">
+            <img src="../Misc/DarkLightbulb.png" id="ModeChange" onclick="DarkMode()">
+        </div>
+        <form class="searchbar">
+            <input type="text" placeholder="Search...">
+            <button><img src="../Misc/search.png"></button>
+        </form>
+    </div>
+    <div class="navigation">
+        <a class="navbutton" href="../LoginPage/LoginPage.html">Login</a>
+        <a class="navbutton" href="../RegistrationPage/RegistrationPage.html">Register</a>
+        <a class="navbutton" href="../HomePage/HomePage.html">Home</a>
+    </div>
+    <p class="rightspace"></p>
+    <body>
+        <div class="center">
+            <br/><br/><br/><br/><br/><br/>
+            <h1 class="header">PH_TITLE:</h1>
+            <hr/>
+            <div class="posts" id="post1">
+                <h2>Sample_Header:</h2>
+                <p>Sample_Text</p>
+                <p>Sample_Text</p>
+                <p>Sample_Text</p>
+                <p>Sample_Text</p>
+                <p>Sample_Text</p>
+                <p>Sample_Text</p>
+                <p>Sample_Text</p>
+                <p>Sample_Text</p>
+            </div>
+            <div class="posts">
+                <h2>Sample_Header:</h2>
+                <p>Sample_Text</p>
+                <p>Sample_Text</p>
+                <p>Sample_Text</p>
+                <p>Sample_Text</p>
+                <p>Sample_Text</p>
+                <p>Sample_Text</p>
+                <p>Sample_Text</p>
+                <p>Sample_Text</p>
+            </div>
+            <p id="one"></p>
+            <script> document.getElementById("one").innerHTML = Date();</script>
+            <div class="bottomtext">
+                <hr/>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            </div>
+        </div>
+        <script type="text/javascript" src="../Misc/DarkMode.js"></script>
+    </body>
+</html>
